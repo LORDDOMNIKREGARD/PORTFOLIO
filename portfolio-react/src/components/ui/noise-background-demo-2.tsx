@@ -7,7 +7,7 @@ const mocktopusImage = "/MOCKTOPUS.png";
 export default function NoiseBackgroundDemoSecond() {
   return (
     <div className="demo-card-shell">
-      <NoiseBackground gradientColors={["#a02d25", "#ffac2e", "#a0e0ab"]}>
+      <NoiseBackground gradientColors={["#b8561f", "#e8b27a", "#2c4a46"]}>
         <Card>
           <img src={mocktopusImage} alt="Mocktopus project preview" className="demo-card-image" />
           <div className="demo-card-copy">

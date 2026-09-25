@@ -35,7 +35,7 @@ export function TextFlippingBoard({ text = DEFAULT_TEXT, className = '' }: { tex
   const rows = text.split('\n').map((line) => line.padEnd(24, ' '));
 
   return (
-    <div className={`w-full max-w-3xl rounded-2xl border border-pink-500/20 bg-black/70 p-3 shadow-[0_0_50px_rgba(255,77,141,0.12)] backdrop-blur ${className}`}>
+    <div className={`w-full max-w-3xl rounded-2xl border border-pink-500/20 bg-black/70 p-3 shadow-[0_0_50px_rgba(229,72,77,0.12)] backdrop-blur ${className}`}>
       <div className="grid gap-2">
         {rows.map((row, rowIndex) => (
           <div key={`${rowIndex}-${row}`} className="flex flex-wrap gap-1 text-[clamp(10px,2vw,22px)] font-mono font-semibold tracking-[0.25em] text-pink-300">
