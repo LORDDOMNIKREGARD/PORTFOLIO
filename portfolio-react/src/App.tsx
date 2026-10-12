@@ -29,6 +29,14 @@ const webProjects = [
     href: 'https://mesh-long-33863730.figma.site',
     linkLabel: 'Open Petrichor Cafe',
   },
+  {
+    title: 'Chance Quest',
+    category: 'Web game · Probability',
+    description: 'A top-down pixel-art RPG that teaches probability — every problem is a situation in the world, from locks to crack to treasure to split, with an online versus mode to race a friend.',
+    image: '/CHANCEQUEST.png',
+    href: 'https://lorddomnikregard.github.io/chance-quest/',
+    linkLabel: 'Play Chance Quest',
+  },
 ]
 
 type DesignItem = {
@@ -175,6 +183,7 @@ function App() {
                 <li>Mocktopus — a polished web experience with a modern, memorable interface.</li>
                 <li>Bharat Index — a study hub built to help IPMAT aspirants prepare, with a searchable index of India's polity, economy, and states.</li>
                 <li>Petrichor Cafe — a mobile app concept for a sustainable campus cafe, designed in Figma.</li>
+                <li>Chance Quest — a pixel-art RPG that teaches probability, playable in the browser.</li>
                 <li>Apparel and poster design for MASCOM and the Students' Council at IIM Amritsar.</li>
               </ul>
               <div className="portfolio-links">
