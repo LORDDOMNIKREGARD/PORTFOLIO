@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { NoiseBackground } from "@/components/ui/noise-background";
 import type { ReactNode } from "react";
 
-const mocktopusImage = "/MOCKTOPUS.png";
+const mocktopusImage = "MOCKTOPUS.png";
 
 export default function NoiseBackgroundDemoSecond() {
   return (
